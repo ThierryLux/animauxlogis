@@ -1,0 +1,56 @@
+.section {
+  width: 100%;
+  color: #000; /* texte noir */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* pour que les colonnes prennent la même hauteur */
+  width: 100%;
+  background-color: #f5f5f5; /* couleur de fond modifiable */
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* Colonne gauche */
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* centre horizontal */
+  align-items: center;      /* centre vertical */
+}
+
+/* Colonne droite */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.contact ul,
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li,
+.links li {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  margin-left: 0.5rem;
+}

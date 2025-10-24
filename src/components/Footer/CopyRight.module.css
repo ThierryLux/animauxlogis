@@ -1,0 +1,8 @@
+.copy {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: #e5e5e5; /* couleur de fond modifiable */
+  font-size: 0.9rem;
+  color: #555;
+}

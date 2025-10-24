@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;            /* pleine hauteur */
+  background-color: #f9f9f9;
+}
+
+.card {
+  text-align: center;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  color: #555;              /* gris doux */
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.siteName {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.socials {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.socials a {
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #000;
+}

@@ -1,0 +1,13 @@
+.sloganTop {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem; /* optionnel pour mettre en valeur */
+}
+
+.orange {
+  color: #f48142;
+}
+
+.blue {
+  color: #5db0b8;
+}
